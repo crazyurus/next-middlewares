@@ -1,0 +1,35 @@
+{
+  "name": "next-middlewares",
+  "version": "1.0.0",
+  "description": "A library that can use multiple middleware in Next",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazyurus/next-middlewares.git"
+  },
+  "keywords": [
+    "next",
+    "middleware"
+  ],
+  "author": "Crazy Urus <crazyurus@vip.qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/crazyurus/next-middlewares",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "path-to-regexp": "^6.2.1"
+  },
+  "devDependencies": {
+    "next": "^14.0.4",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0"
+  },
+  "files": [
+    "dist/*.*"
+  ],
+  "packageManager": "pnpm@8.15.1"
+}
